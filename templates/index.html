@@ -1,0 +1,19 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+    <div class="jumbotron text-center">
+      <h1>Welcome to myFlaskApp</h1>
+      <p class="lead">
+        This app has the microframework Flask running on the backend, handled
+        with Python. This is a practice project to understand how it works. On
+        the frontend, there is Bootstrap.
+      </p>
+      <hr>
+      {% if session.logged_in == Null %}
+        <a href="/login" class="btn btn-dark btn-lg">Login</a>
+        <a href="/register" class="btn btn-primary btn-lg">Register</a>
+      {% else %}
+        <p class="text-success">You are logged in!</p>
+      {% endif %}
+    </div>
+{% endblock %}
