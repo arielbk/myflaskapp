@@ -2,7 +2,7 @@
 
 This is a simple add in which you can register and login, and proceed to add or edit articles that are then publicly viewable.
 
-This was created as a practice project, following along with a tutorial on YouTube for creating Flask applications by (Traversy Media)[https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA].
+This was created as a practice project, following along with a tutorial on YouTube for creating Flask applications by [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA).
 
 It uses Python and Flask on the backend, and MySQL for databases.
 
